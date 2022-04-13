@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="bloodbank" Class="DataContextDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-OHHS4UD\SQLEXPRESS;Initial Catalog=bloodbank;Integrated Security=True" SettingsObjectName="bloodbankmngmt.Properties.Settings" SettingsPropertyName="bloodbankConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.tbldonor" Member="tbldonors">
+    <Type Name="tbldonor">
+      <Column Name="New_Donor_Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Father_Name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Mother_Name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Date_of_Birth" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Mobile_No" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="Gender" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Blood_group" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="City" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Address" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
